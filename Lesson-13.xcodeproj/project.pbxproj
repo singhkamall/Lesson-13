@@ -15,6 +15,7 @@
 		C7D00277208E9996008B4EB0 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D00276208E9996008B4EB0 /* StartViewController.swift */; };
 		C7D00279208E99D9008B4EB0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D00278208E99D9008B4EB0 /* SecondViewController.swift */; };
 		C7D0027B208E99F4008B4EB0 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0027A208E99F4008B4EB0 /* EndViewController.swift */; };
+		C7D0027E208E9BA8008B4EB0 /* AnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0027D208E9BA8008B4EB0 /* AnimationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C7D00276208E9996008B4EB0 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		C7D00278208E99D9008B4EB0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C7D0027A208E99F4008B4EB0 /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		C7D0027D208E9BA8008B4EB0 /* AnimationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				C7D00275208E991B008B4EB0 /* View Controllers */,
-				C7D00263208E9870008B4EB0 /* AppDelegate.swift */,
+				C7D0027C208E9B79008B4EB0 /* Managers */,
 				C7D00265208E9870008B4EB0 /* ViewController.swift */,
+				C7D00263208E9870008B4EB0 /* AppDelegate.swift */,
 				C7D00267208E9870008B4EB0 /* Main.storyboard */,
 				C7D0026A208E9870008B4EB0 /* Assets.xcassets */,
 				C7D0026C208E9870008B4EB0 /* LaunchScreen.storyboard */,
@@ -79,6 +82,14 @@
 				C7D0027A208E99F4008B4EB0 /* EndViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C7D0027C208E9B79008B4EB0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C7D0027D208E9BA8008B4EB0 /* AnimationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D0027E208E9BA8008B4EB0 /* AnimationManager.swift in Sources */,
 				C7D00279208E99D9008B4EB0 /* SecondViewController.swift in Sources */,
 				C7D0027B208E99F4008B4EB0 /* EndViewController.swift in Sources */,
 				C7D00266208E9870008B4EB0 /* ViewController.swift in Sources */,
